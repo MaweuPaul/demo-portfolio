@@ -10759,10 +10759,10 @@ textarea.form-control-lg {
   }
 }
 .menu {
-  background: linear-gradient(to right, rba(#9926f0, 0.95), rba(#d122e3, 0.95));
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
 .menu li {
-  padding: 0 0.07rem;
+  padding: 0 0.7rem;
 }
 .menu a {
   color: #fff !important;
