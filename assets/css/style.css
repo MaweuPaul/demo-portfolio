@@ -10758,5 +10758,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.menu {
+  background: linear-gradient(to right, rba(#9926f0, 0.95), rba(#d122e3, 0.95));
+}
+.menu li {
+  padding: 0 0.07rem;
+}
+.menu a {
+  color: #fff !important;
+  text-transform: capitalize;
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=style.css.map */
