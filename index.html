@@ -6,6 +6,8 @@
     <title>demo portfolio</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/fontawesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/vendors/css/glightbox.min.css">
   </head>
   <body>
     <!-- navbar section -->
@@ -49,27 +51,52 @@
       <section id="home" class="intro-section">
          <div class="container">
           <div class="row align-items-center text-white">
+            <!-- content for intro -->
             <div class="col-md-6 intros">
               <h1 class="display-2">
                 <span class="display-2--intro">Hey! Iam Paul</span>
-                <span class="display-2--description">
+                <span class="display-2--description lh-base">
                   get your website build 
                   in time
                 </span>
               </h1>
-            <button type="button" class="rounded-pill btn-rounded">get in Touch
+            <button type="button" class="rounded-pill btn-rounded">Get in Touch
               <span>
               <i class="fas fa-arrow-right"></i>
               </span>
             </button>
           </div>
-          <div class="col-md-6 intros"></div>
+          <!-- contet for the video -->
+          <div class="col-md-6 intros text-end">
+          <div class="video-box">
+            <img src="images/art/into-section.png"alt="video illustration" class="img-fluid">
+            <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+              <span>
+                <i class="fas fa-play-circle"></i>
+              </span>
+              <span class="border-animation border-animation--border-1"></span>
+              <span class="border-animationborder-animation--border-2"></span>
+            </a>
+            </div>
+           </div>
           </div>
          </div>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L48,96C96,96,192,96,288,122.7C384,149,480,203,576,197.3C672,192,768,128,864,128C960,128,1056,192,1152,181.3C1248,171,1344,85,1392,42.7L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       </section>
 
 
+   <script src="/assets/vendors/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        
+            'href': 'https://www.youtube.com/watch?v=_a5j7KoflTs',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+        
   
+});
+    </script>
     <script src="/assets/js/bootstrap.bundle.js"></script>
   </body>
 </html>
