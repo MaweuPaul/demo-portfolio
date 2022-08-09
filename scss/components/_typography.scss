@@ -14,5 +14,10 @@
         margin-top: 1.5rem;
         text-transform:none;
 
+        @include media-breakpoint-up(lg){
+            font-size:1.5rem;
+            display: inline-block;
+        }
+
     }
 }
