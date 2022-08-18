@@ -1,0 +1,22 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.get-started {
+  padding: 4rem 0;
+  background-color: $gray-200;
+}
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+  &__list {
+    position: relative;
+    list-style: none;
+    display: block;
+
+    li::before {
+      font-family: "Font Awesome 5 Free";
+
+      font-weight: 600;
+    }
+  }
+}
